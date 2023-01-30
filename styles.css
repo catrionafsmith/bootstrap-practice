@@ -6,6 +6,10 @@ main > .container {
   padding: 60px 15px 0;
 }
 
+h1:hover {
+  transform: scale(1,1);  
+}
+
 /* Code for dropdowns - is it all needed? */
 .dropdown-menu {
   margin: 4rem auto;
