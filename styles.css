@@ -6,9 +6,17 @@ main > .container {
   padding: 60px 15px 0;
 }
 
-h1:hover {
-  transform: scale(1,1);  
+.card-img-top1 {
+  height: 40px; /* adjust this value as needed */
 }
+
+
+.learnCard {
+  transition: 0.3s;
+}
+.learnCard:hover {
+    transform: scale(1.1);
+  }
 
 /* Code for dropdowns - is it all needed? */
 .dropdown-menu {
@@ -89,4 +97,43 @@ h1:hover {
 
 .w-600px {
   width: 600px;
+}
+
+ /*for volunteer*/
+ #selection_card {    
+  box-shadow: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#selection_card_subtitle {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+#card_group {
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+#result_id_div {    
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+#result_title {
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 5rem;
+  border-bottom: 5px solid #000;
+  display: inline-block;    
+}
+
+.card-img-top {
+  height: 260px; /* adjust this value as needed */
 }
