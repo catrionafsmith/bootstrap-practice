@@ -22,11 +22,14 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="chatbot.html">Chatbot</a>
-                
+                    <a class="nav-link active"  href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link"  href="learn.html">Learn</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="chatbot.html">Chatbot</a>
+                    </li>
             </ul>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -47,7 +50,9 @@
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
                 <div class="card">
-                    <img src="example.png" class="card-img-top" alt="...">
+                    <div class="card-header">
+                        Featured
+                      </div>
                     <div class="card-body">
                         <h5 class="card-title">Title Here</h5>
                         <p class="card-text">Description here...</p>
@@ -66,33 +71,6 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <!-- <script>
-    
-        const learnCards = document.querySelector(".cardHolder")
-
-        function createCard([img, title, description, link]) {
-            let code = `
-                <div class="card">
-                    <img src="${img}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">${title}</h5>
-                        <p class="card-text">${description}</p>
-                        <a href="${link}" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-
-            `;
-            learnCards.innerHTML += code;
-        }
-
-        let item1 = ["example.png", "HTML Course", "This course teaches you how to make HTML from scratch", "https://www.codecademy.com/learn/learn-html"]
-        let item2 = ["example.png", "CSS Course", "This course teaches you how to make CSS on your own", "https://www.codecademy.com/learn/learn-css"]
-
-        createCard(item1)
-        createCard(item2)
-        createCard(item1)
-        createCard(item2)
-    </script> -->
     <script src="script.js"></script>
 </body>
 </html>
