@@ -1,4 +1,4 @@
-const { API_SECRET = 'shiba' } = process.env
+
 
 const process = require('process')
 
@@ -7,7 +7,7 @@ const qs = require('qs')
 
 const handler = async function (event) {
   // apply our function to the queryStringParameters and assign it to a variable
-   onsole.log('API_PARAMS', API_PARAMS)
+  console.log('API_PARAMS', API_PARAMS)
   // Get env var values defined in our Netlify site UI
 
   // TODO: customize your URL and API keys set in the Netlify Dashboard
