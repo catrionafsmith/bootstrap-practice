@@ -5,7 +5,9 @@
 main > .container {
   padding: 60px 15px 0;
 }
-
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .navbar-custom {
   background-color: #AAE3E2;
 }
