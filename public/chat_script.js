@@ -8,7 +8,7 @@ $("#terminal").terminal(async function (command, terminal) {
                 method: "POST",
                 headers: {
                     "content-type": "application/json",
-                    Authorization: "Bearer API_KEY",
+                    Authorization: "Bearer ${API_KEY}",
                 },
                     }
         ).then((response) => {
